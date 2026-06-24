@@ -51,10 +51,10 @@ const audioSlots = {
 };
 const loopAudioConfig = {
   "Crowd Chatter": { src: "assets/audio/Crowd Chatter.mp3", gain: 0.34 },
-  "Indoor Ambience": { src: null, gain: 0.24 },
-  "Rain Sounds": { src: null, gain: 0.3 },
-  "Street Noise": { src: null, gain: 0.2 },
-  "Cooking Sounds": { src: null, gain: 0.28 },
+  "Indoor Ambience": { src: "assets/audio/Indoor Ambience.mp3", gain: 0.18 },
+  "Rain Sounds": { src: "assets/audio/Rain.mp3", gain: 0.2 },
+  "Street Noise": { src: "assets/audio/Street noise.mp3", gain: 0.13 },
+  "Cooking Sounds": { src: "assets/audio/Cooking Sounds.mp3", gain: 0.18 },
   "Glass Clinks": { src: "assets/audio/Glass clinks.mp3", gain: 0.14 },
 };
 const loopAudios = {};
