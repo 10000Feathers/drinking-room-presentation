@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drinking Room</title>
+    <link rel="stylesheet" href="styles.css?v=20260617-leave" />
+  </head>
+  <body>
+    <main class="app" id="app">
+      <img id="scene" class="scene" src="assets/images/Web-01.png" alt="theme scene" />
+      <div id="smellLayer" class="smell-layer"></div>
+      <div id="rainLayer" class="rain-layer"></div>
+      <div id="glassLayer" class="glass-layer"></div>
+      <div class="time-cover" aria-hidden="true"></div>
+      <div id="peopleTags" class="people-tags"></div>
+
+      <section class="left">
+        <div class="topline">
+          <div>
+            <h2>⚡ Actions</h2>
+            <p>T= Propose Toast<br />R= Raise Glass</p>
+          </div>
+          <div>
+            <h2>Drinking Time</h2>
+            <p id="timer">00:00:00</p>
+          </div>
+        </div>
+
+        <h2 class="room">⌂ Room: <span id="roomCode">AB12CD</span></h2>
+        <div class="room-actions">
+          <button class="join-button" id="openJoin">→ Join a Room</button>
+          <button class="leave-button" id="leaveRoom" disabled>← Leave Room</button>
+        </div>
+
+        <h2 class="participants-title">♟ Participants</h2>
+        <div id="participants" class="participants"></div>
+        <p id="count" class="count">0/8</p>
+
+        <h2 class="theme-title">Theme</h2>
+        <div id="themeButtons" class="theme-buttons"></div>
+      </section>
+
+      <section class="right">
+        <div id="sliders" class="sliders"></div>
+        <h2 class="player-title">Music Player</h2>
+        <div class="player">
+          <iframe
+            id="youtubeFrame"
+            title="Music Player"
+            src="https://www.youtube.com/embed/jfKfPfyJRdk?controls=1&rel=0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="youtube-tools">
+          <input id="youtubeUrl" value="https://www.youtube.com/watch?v=jfKfPfyJRdk" />
+          <button id="loadYoutube">Load</button>
+          <a id="openYoutube" href="https://www.youtube.com/watch?v=jfKfPfyJRdk" target="_blank" rel="noreferrer">Open</a>
+        </div>
+      </section>
+
+      <div id="toastLayer" class="toast-layer"></div>
+    </main>
+
+    <dialog id="joinDialog" class="modal">
+      <button id="closeJoin" class="x">×</button>
+      <h1>Join a Room</h1>
+      <label>Nickname <input id="nickname" maxlength="14" /></label>
+      <label>Room Code <input id="joinCode" maxlength="8" /></label>
+      <button id="joinSubmit" class="black">Join</button>
+    </dialog>
+
+    <dialog id="alertDialog" class="modal alert">
+      <p id="alertText">Your liver says hello</p>
+      <button id="alertOk" class="black">ok!</button>
+    </dialog>
+
+    <audio id="sfxJoin" data-slot="join"></audio>
+    <audio id="sfxCheers" data-slot="cheers"></audio>
+    <audio id="sfxRaise" data-slot="raise"></audio>
+    <audio id="sfxToast" data-slot="toast"></audio>
+    <audio id="sfxWarning" data-slot="warning"></audio>
+    <audio id="sfxRoomFull" data-slot="room-full"></audio>
+    <script src="script.js?v=20260617-leave"></script>
+  </body>
+</html>

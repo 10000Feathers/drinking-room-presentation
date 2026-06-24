@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080">
+  <rect width="1920" height="1080" fill="#fff"/>
+  <style>
+    text{font-family:Arial, Helvetica, sans-serif;fill:#000;font-size:28px;text-anchor:middle}
+    .title{font-size:58px;font-weight:700}
+    .box{fill:#fff;stroke:#000;stroke-width:4}
+    .line{stroke:#000;stroke-width:4;fill:none}
+    .small{font-size:22px}
+  </style>
+  <text x="960" y="78" class="title">SITE MAP</text>
+
+  <rect class="box" x="780" y="120" width="360" height="72" rx="8"/>
+  <text x="960" y="166">Drinking Room</text>
+
+  <path class="line" d="M960 192 V238"/>
+  <path class="line" d="M225 238 H1695"/>
+  <path class="line" d="M225 238 V278M519 238V278M813 238V278M1107 238V278M1401 238V278M1695 238V278"/>
+
+  <rect class="box" x="90" y="278" width="270" height="66" rx="8"/><text x="225" y="320">Join a Room</text>
+  <rect class="box" x="384" y="278" width="270" height="66" rx="8"/><text x="519" y="320">Theme</text>
+  <rect class="box" x="678" y="278" width="270" height="66" rx="8"/><text x="813" y="320">Room Info</text>
+  <rect class="box" x="972" y="278" width="270" height="66" rx="8"/><text x="1107" y="320">Participants</text>
+  <rect class="box" x="1266" y="278" width="270" height="66" rx="8"/><text x="1401" y="320">Sound Mixer</text>
+  <rect class="box" x="1560" y="278" width="270" height="66" rx="8"/><text x="1695" y="320">Music Player</text>
+
+  <path class="line" d="M225 344 V390M519 344V390M813 344V390M1107 344V390M1401 344V390"/>
+  <path class="line" d="M120 390H330M405 390H633M708 390H918M1008 390H1206M1290 390H1512"/>
+
+  <g class="small">
+    <path class="line" d="M120 390V430M225 390V430M330 390V430"/>
+    <rect class="box" x="35" y="430" width="170" height="48" rx="6"/><text x="120" y="462">Nickname</text>
+    <rect class="box" x="140" y="500" width="170" height="48" rx="6"/><text x="225" y="532">Room Code</text>
+    <rect class="box" x="245" y="430" width="170" height="48" rx="6"/><text x="330" y="462">Join Popup</text>
+
+    <path class="line" d="M405 390V430M462 390V500M519 390V430M576 390V500M633 390V430"/>
+    <rect class="box" x="320" y="430" width="170" height="48" rx="6"/><text x="405" y="462">Cocktail Bar</text>
+    <rect class="box" x="377" y="500" width="170" height="48" rx="6"/><text x="462" y="532">Local Pub</text>
+    <rect class="box" x="434" y="430" width="170" height="48" rx="6"/><text x="519" y="462">Pojang Macha</text>
+    <rect class="box" x="491" y="500" width="170" height="48" rx="6"/><text x="576" y="532">Izakaya</text>
+    <rect class="box" x="548" y="430" width="170" height="48" rx="6"/><text x="633" y="462">Sports Pub</text>
+
+    <path class="line" d="M760 390V430M866 390V430"/>
+    <rect class="box" x="675" y="430" width="170" height="48" rx="6"/><text x="760" y="462">Room Code</text>
+    <rect class="box" x="781" y="430" width="170" height="48" rx="6"/><text x="866" y="462">Drinking Time</text>
+
+    <path class="line" d="M1025 390V430M1107 390V500M1189 390V430"/>
+    <rect class="box" x="940" y="430" width="170" height="48" rx="6"/><text x="1025" y="462">Nickname</text>
+    <rect class="box" x="1022" y="500" width="170" height="48" rx="6"/><text x="1107" y="532">Online Avatars</text>
+    <rect class="box" x="1104" y="430" width="170" height="48" rx="6"/><text x="1189" y="462">8/8 Limit</text>
+
+    <path class="line" d="M1290 390V430M1334 390V500M1378 390V430M1422 390V500M1466 390V430M1512 390V500"/>
+    <rect class="box" x="1205" y="430" width="170" height="48" rx="6"/><text x="1290" y="462">Master</text>
+    <rect class="box" x="1249" y="500" width="170" height="48" rx="6"/><text x="1334" y="532">Crowd</text>
+    <rect class="box" x="1293" y="430" width="170" height="48" rx="6"/><text x="1378" y="462">Rain</text>
+    <rect class="box" x="1337" y="500" width="170" height="48" rx="6"/><text x="1422" y="532">Cooking</text>
+    <rect class="box" x="1381" y="430" width="170" height="48" rx="6"/><text x="1466" y="462">Glass</text>
+    <rect class="box" x="1427" y="500" width="170" height="48" rx="6"/><text x="1512" y="532">Ambience</text>
+  </g>
+
+  <rect class="box" x="760" y="690" width="400" height="64" rx="8"/>
+  <text x="960" y="732">Popups</text>
+  <path class="line" d="M960 754 V806"/>
+  <path class="line" d="M510 806H1410"/>
+  <path class="line" d="M510 806V850M735 806V850M960 806V850M1185 806V850M1410 806V850"/>
+  <rect class="box" x="420" y="850" width="180" height="56" rx="7"/><text x="510" y="886">Joined</text>
+  <rect class="box" x="645" y="850" width="180" height="56" rx="7"/><text x="735" y="886">Cheers</text>
+  <rect class="box" x="870" y="850" width="180" height="56" rx="7"/><text x="960" y="886">Toast</text>
+  <rect class="box" x="1095" y="850" width="180" height="56" rx="7"/><text x="1185" y="886">Warning</text>
+  <rect class="box" x="1320" y="850" width="180" height="56" rx="7"/><text x="1410" y="886">Room Full</text>
+</svg>
